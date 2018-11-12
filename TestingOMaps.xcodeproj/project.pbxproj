@@ -13,6 +13,7 @@
 		874D4B04219950C300E9ABCE /* BinaryMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D4B03219950C300E9ABCE /* BinaryMap.swift */; };
 		874D4B06219950D100E9ABCE /* HashMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D4B05219950D100E9ABCE /* HashMap.swift */; };
 		874D4B082199552B00E9ABCE /* Benchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D4B072199552B00E9ABCE /* Benchmark.swift */; };
+		874D4B0B219A315800E9ABCE /* textWrite.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D4B0A219A315800E9ABCE /* textWrite.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -35,6 +36,7 @@
 		874D4B03219950C300E9ABCE /* BinaryMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryMap.swift; sourceTree = "<group>"; };
 		874D4B05219950D100E9ABCE /* HashMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashMap.swift; sourceTree = "<group>"; };
 		874D4B072199552B00E9ABCE /* Benchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benchmark.swift; sourceTree = "<group>"; };
+		874D4B0A219A315800E9ABCE /* textWrite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = textWrite.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,12 +71,21 @@
 			children = (
 				87459F9B218CB63E0029C813 /* main.swift */,
 				874D4B072199552B00E9ABCE /* Benchmark.swift */,
+				874D4B0A219A315800E9ABCE /* textWrite.swift */,
+				874D4B09219A28CC00E9ABCE /* Maps */,
+			);
+			path = TestingOMaps;
+			sourceTree = "<group>";
+		};
+		874D4B09219A28CC00E9ABCE /* Maps */ = {
+			isa = PBXGroup;
+			children = (
 				87459FA2218CB6790029C813 /* FakeMap.swift */,
 				874D4B012199509500E9ABCE /* LinearMap.swift */,
 				874D4B03219950C300E9ABCE /* BinaryMap.swift */,
 				874D4B05219950D100E9ABCE /* HashMap.swift */,
 			);
-			path = TestingOMaps;
+			path = Maps;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +149,7 @@
 				874D4B082199552B00E9ABCE /* Benchmark.swift in Sources */,
 				874D4B04219950C300E9ABCE /* BinaryMap.swift in Sources */,
 				87459FA3218CB6790029C813 /* FakeMap.swift in Sources */,
+				874D4B0B219A315800E9ABCE /* textWrite.swift in Sources */,
 				874D4B022199509500E9ABCE /* LinearMap.swift in Sources */,
 				874D4B06219950D100E9ABCE /* HashMap.swift in Sources */,
 			);

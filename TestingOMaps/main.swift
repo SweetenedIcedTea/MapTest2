@@ -8,4 +8,9 @@
 
 import Foundation
 
-doBenchmark()
+let fileURL = URL(string: "file:///Users/sweetenedicedtea/Desktop/AdvProgram/TestingOMaps/json.txt")!
+    
+print(fileURL)
+try text.write(to: fileURL, atomically: false, encoding: .utf8)
+
+//doBenchmark()
