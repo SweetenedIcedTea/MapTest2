@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		87459F9C218CB63E0029C813 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87459F9B218CB63E0029C813 /* main.swift */; };
+		87459FA3218CB6790029C813 /* FakeMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 87459FA2218CB6790029C813 /* FakeMap.swift */; };
+		874D4B022199509500E9ABCE /* LinearMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D4B012199509500E9ABCE /* LinearMap.swift */; };
+		874D4B04219950C300E9ABCE /* BinaryMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D4B03219950C300E9ABCE /* BinaryMap.swift */; };
+		874D4B06219950D100E9ABCE /* HashMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D4B05219950D100E9ABCE /* HashMap.swift */; };
+		874D4B082199552B00E9ABCE /* Benchmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = 874D4B072199552B00E9ABCE /* Benchmark.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +30,11 @@
 /* Begin PBXFileReference section */
 		87459F98218CB63E0029C813 /* TestingOMaps */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = TestingOMaps; sourceTree = BUILT_PRODUCTS_DIR; };
 		87459F9B218CB63E0029C813 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		87459FA2218CB6790029C813 /* FakeMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FakeMap.swift; sourceTree = "<group>"; };
+		874D4B012199509500E9ABCE /* LinearMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LinearMap.swift; sourceTree = "<group>"; };
+		874D4B03219950C300E9ABCE /* BinaryMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BinaryMap.swift; sourceTree = "<group>"; };
+		874D4B05219950D100E9ABCE /* HashMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HashMap.swift; sourceTree = "<group>"; };
+		874D4B072199552B00E9ABCE /* Benchmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Benchmark.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +68,11 @@
 			isa = PBXGroup;
 			children = (
 				87459F9B218CB63E0029C813 /* main.swift */,
+				874D4B072199552B00E9ABCE /* Benchmark.swift */,
+				87459FA2218CB6790029C813 /* FakeMap.swift */,
+				874D4B012199509500E9ABCE /* LinearMap.swift */,
+				874D4B03219950C300E9ABCE /* BinaryMap.swift */,
+				874D4B05219950D100E9ABCE /* HashMap.swift */,
 			);
 			path = TestingOMaps;
 			sourceTree = "<group>";
@@ -120,6 +135,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				87459F9C218CB63E0029C813 /* main.swift in Sources */,
+				874D4B082199552B00E9ABCE /* Benchmark.swift in Sources */,
+				874D4B04219950C300E9ABCE /* BinaryMap.swift in Sources */,
+				87459FA3218CB6790029C813 /* FakeMap.swift in Sources */,
+				874D4B022199509500E9ABCE /* LinearMap.swift in Sources */,
+				874D4B06219950D100E9ABCE /* HashMap.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
