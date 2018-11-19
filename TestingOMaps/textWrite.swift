@@ -8,5 +8,21 @@
 
 import Foundation
 
-let file = "json.txt" //this is the file. we will write to and read from it
-let text = "some text blah uhfoaiwo" //just a text
+let getPath = URL(string: "file:///Users/sweetenedicedtea/Desktop/AdvProgram/TestingOMaps/getData.csv")!
+let setPath = URL(string: "file:///Users/sweetenedicedtea/Desktop/AdvProgram/TestingOMaps/setData.csv")!
+let hashSetPath = URL(string: "file:///Users/sweetenedicedtea/Desktop/AdvProgram/TestingOMaps/hashSetData.csv")!
+let hashGetPath = URL(string: "file:///Users/sweetenedicedtea/Desktop/AdvProgram/TestingOMaps/hashGetData.csv")!
+let magnitude = 4
+
+func power(num: Int, power: Int)-> Int{
+    var result = num
+    for _ in 1..<power{
+        result *= num
+    }
+    return(result)
+}
+
+func getNumber(first: Int, pow: Int)-> Int{
+    let expo = power(num: 10, power: pow)
+    return(first * expo)
+}

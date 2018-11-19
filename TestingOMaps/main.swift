@@ -8,9 +8,38 @@
 
 import Foundation
 
-let fileURL = URL(string: "file:///Users/sweetenedicedtea/Desktop/AdvProgram/TestingOMaps/json.txt")!
-    
-print(fileURL)
-try text.write(to: fileURL, atomically: false, encoding: .utf8)
+var setCsvText = "Number Operations, Time(ms)\n"
+var getCsvText = "Number Operations, Time(ms)\n"
+var hashSetCsvText = ""
+var hashGetCsvText = ""
 
-//doBenchmark()
+doBenchmark()
+
+do {
+    try setCsvText.write(to: setPath, atomically: true, encoding: String.Encoding.utf8)
+} catch {
+    print("Failed to create set csv")
+    print("\(error)")
+}
+
+do {
+    try getCsvText.write(to: getPath, atomically: true, encoding: String.Encoding.utf8)
+} catch {
+    print("Failed to create set csv")
+    print("\(error)")
+}
+
+do {
+    try hashSetCsvText.write(to: hashSetPath, atomically: true, encoding: String.Encoding.utf8)
+} catch {
+    print("Failed to create set csv")
+    print("\(error)")
+}
+
+do {
+    try hashGetCsvText.write(to: hashGetPath, atomically: true, encoding: String.Encoding.utf8)
+} catch {
+    print("Failed to create set csv")
+    print("\(error)")
+}
+
